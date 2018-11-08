@@ -2,9 +2,10 @@ Manifest-Version: 1.0
 Implementation-Title: easy-log
 Implementation-Version: 1.0
 Built-By: zhangmengnan
-Implementation-Vendor-Id: cn.easy
+Implementation-Vendor-Id: com.gihub.imzz
 Build-Jdk: 1.8.0_101
-Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
- ot-starter-parent/log
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ easylog-stater/
 Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
 
