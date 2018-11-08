@@ -1,4 +1,4 @@
-package cn.easy.log.web.transverter;
+package com.github.imzz.web.transverter;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 

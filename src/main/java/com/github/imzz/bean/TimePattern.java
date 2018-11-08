@@ -1,4 +1,4 @@
-package cn.easy.log.bean;
+package com.github.imzz.bean;
 
 public enum TimePattern {
 	pattern1("yyyy-MM-dd HH:mm:ss"),pattern2("yyyyMMddHHmmss"),pattern3("yyyy/MM/dd");

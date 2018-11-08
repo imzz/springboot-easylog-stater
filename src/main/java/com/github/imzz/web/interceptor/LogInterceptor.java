@@ -1,4 +1,4 @@
-package cn.easy.log.web.interceptor;
+package com.github.imzz.web.interceptor;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import cn.easy.log.web.transverter.Transvertor;
+import com.github.imzz.web.transverter.Transvertor;
 
 @Aspect
 @Component
@@ -20,7 +20,7 @@ Transvertor transvertor;
 	
 Logger logger = LoggerFactory.getLogger(this.getClass());
 	
-	@Pointcut("@annotation(cn.easy.log.web.annotation.EasyLog)")
+	@Pointcut("@annotation(com.github.imzz.web.annotation.EasyLog)")
 	public void Pointcut (){
 		
 	}

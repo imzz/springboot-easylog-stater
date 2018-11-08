@@ -1,4 +1,4 @@
-package cn.easy.log.config;
+package com.github.imzz.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

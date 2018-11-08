@@ -1,4 +1,4 @@
-package cn.easy.log;
+package com.github.imzz;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package cn.easy.log.web.annotation;
+package com.github.imzz.web.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -7,7 +7,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import cn.easy.log.bean.TimePattern;
+import com.github.imzz.bean.TimePattern;
 
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

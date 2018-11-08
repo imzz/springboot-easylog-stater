@@ -1,4 +1,4 @@
-package cn.easy.log.util;
+package com.github.imzz.util;
 
 import java.lang.reflect.Method;
 import java.time.LocalDateTime;
