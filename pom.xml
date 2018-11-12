@@ -5,7 +5,7 @@
 
 	<groupId>com.github.imzz</groupId>
 	<artifactId>spring-boot-easylog-stater</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<packaging>jar</packaging>
 
 
@@ -34,12 +34,6 @@
 		</developer>
 	</developers>
 
-
-	<parent>
-		<groupId>org.sonatype.oss</groupId>
-		<artifactId>oss-parent</artifactId>
-		<version>9</version>
-	</parent>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -107,6 +101,11 @@
 			<artifactId>spring-boot-autoconfigure</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>2.11.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

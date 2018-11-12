@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.util.StringUtils;
 
+import scala.unchecked;
+
+
 public class FormatUtils {
 	/**
 	 * 将要匹配的字段从模版中提取出来
@@ -43,7 +46,6 @@ public class FormatUtils {
 			return template;
 		}else{
 			for (String string : patterns) {
-				
 			}
 		}
 		return "";
