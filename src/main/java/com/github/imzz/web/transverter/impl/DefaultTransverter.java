@@ -11,6 +11,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -24,7 +25,10 @@ import com.github.imzz.config.EasyLogConfig;
 import com.github.imzz.web.annotation.EasyLog;
 import com.github.imzz.web.transverter.Transvertor;
 
+
+
 @Service
+@ConditionalOnMissingBean(Transvertor.class)
 public class DefaultTransverter implements Transvertor{
 	//引入配置文件配置
     @Autowired
