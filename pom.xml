@@ -21,7 +21,7 @@
 	</licenses>
 	<scm>
 		<tag>master</tag>
-		<url>https://github.com/imzz/springboot-easylog-stater.git</url>
+		<url>https://github.com/imzz/springboot-easylog-stater/tree/1.1</url>
 		<connection>scm:git:https://github.com/imzz/springboot-easylog-stater.git</connection>
 		<developerConnection>scm:git:https://github.com/imzz/springboot-easylog-stater.git</developerConnection>
 	</scm>
