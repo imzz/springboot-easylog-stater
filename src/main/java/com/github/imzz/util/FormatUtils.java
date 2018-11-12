@@ -12,8 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.util.StringUtils;
 
-import scala.unchecked;
-
 
 public class FormatUtils {
 	/**
